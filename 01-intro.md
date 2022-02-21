@@ -12,7 +12,7 @@
 ## Problemet med filversioner
 
 * Filuppdateringar leder till filversioner
-* Filhistorik blir svårhanterlig, aktuell?
+* Filhistorik blir svårhanterlig, vilken är aktuell?
 * Samarbete med filer omöjligt
 * Distribution av filer krävande
 
@@ -29,7 +29,7 @@
 
 <img src="https://git-scm.com/images/logos/downloads/Git-Logo-2Color.png" width="10%" height="10%" />
 
-* För att hantera Linux utveckling och distrubution skapades Versionshanteringsprogram
+* Utvecklingen av Linux och dess distrubution krävde versionshanteringsprogram
 * _Git_ är ett versionshanteringsprogram VCS (Version Control System), _Subversion_ (SVN) är andra
 * _Git_ är inte filversioner
 * Versionshantering innebär stöd för _traceability_, möjligheten att backa till tidigare versioner

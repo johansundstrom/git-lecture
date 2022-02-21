@@ -19,10 +19,11 @@
 
 ## 3. Konfigurera Git
 
-1. Öppna bash terminal och skapa mapp i filsystemet ```cd <mapp>``` och/eller ```mkdir <mapp>```
-1. ```git init``` - Skapar lokal repository  i dolda undermappen ```.git```
-1. ```git config --global user.name "johansundstrom"``` Tillägget ```--global``` ger åtkomst i alla projektmappar
-1. ```git config --global user.email "johan.sundstrom@mdh.se"```
+1. Öppna bash terminal 
+2. Skapa mapp i filsystemet ```cd <mapp>``` och ```mkdir <mapp>```
+3. ```git init``` - Skapar lokal repository i dolda undermappen ```.git```
+4. ```git config --global user.name "johansundstrom"``` - Tillägget ```--global``` ger åtkomst i alla projektmappar
+5. ```git config --global user.email "johan.sundstrom@mdh.se"```
 
 ---
 
