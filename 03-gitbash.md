@@ -41,17 +41,15 @@ Bokstäverna rwx står för Read/Write/Execute rättighet. Dessa visas tre gång
 ## Kontrollera Git
 
 13. ```git status``` visar om mappen är ett repo
-14. ```git init``` Skapar eventuellt lokalt repository
-15. Sänd ```ls -a``` 
-16. ```git status```
-17. Besvara: Vad har filen ```index.html``` för status (untracked | staged | committed ) och färg?
+14. Sänd ```ls -a``` 
+15. Besvara: Vad har filen ```index.html``` för status (untracked | staged | committed ) och färg?
 
 ---
 
-### Redigera fil
+## Redigera fil
 
-18. Redigera filen ```index.html``` med t.ex. ```<html>...</html>``` och spara (Mac: ```open -a textedit index.html``` | Windows: ```notepad index.html``` | Linux: ```nano index.html```)
-19. Spara
+16. Redigera filen ```index.html``` med t.ex. ```<html>...</html>``` och spara (Mac: ```open -a textedit index.html``` | Windows: ```notepad index.html``` | Linux: ```nano index.html```)
+17. Spara
 
 --- 
 
