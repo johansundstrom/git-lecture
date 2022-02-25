@@ -40,31 +40,32 @@
 
 ## Arbeta på ny branch
 
-5. ```git branch develop``` Skapa på nytt
-6. ```git branch``` Notera aktuell gren
-7. ```git checkout develop``` Byter till branch `develop`
-8. ```git branch``` Aktuell gren är `develop`
+7. ```git branch develop``` Skapa på nytt
+8. ```git branch``` Notera aktuell gren
+9. ```git checkout develop``` Byter till branch `develop`
+10. ```git branch``` Aktuell gren är `develop`
 
 ---
 
-## 1. Utveckla i en branch
+## Utveckla i en branch
 
-9. ```touch start.html``` Skapa fil
-10. ```ls``` Notera att filen skapades
-11. Stage'a och Committ'a nya filen
-12. ```git status``` Kontrollera att allt är klart
-13. Notera att filen i branch `develop` existerar
+11. ```touch start.html``` Skapa fil
+12. ```ls``` Notera att filen skapades
+13. Stage'a och Committ'a nya filen
+14. ```git status``` Kontrollera att allt är klart
+15. Notera att `start.html` i branch `develop` existerar
 
-## 2. Utveckla i en branch
+---
 
-14. ```git checkout master``` Byt till `master branch`
-17. ```ls``` Filen `start.html` ska inte finnas i `master branch`
-18. Bevaka mappen i Finder eller Filutforskaren vid bytet
-19. Notera att endast filer från Master existerar
-20. ```git checkout new_feature``` Byt till New_Feature
-21. Sänd ```ls```
-22. Notera att filer från Master och New_Feature existerar
-23. ```git log --oneline --decorate --graph --all -5``` Lista de 5 senaste händelserna
+## Filsystemet vid branchbyte
+
+16. ```git branch``` Aktuell gren är `develop`
+17.  Öppna aktuell mapp i Finder eller Filutforskaren
+18.  Filen `start.html` finns filsystemet
+19.  ```git checkout master``` Byt till `master branch`
+20.  Betrakta aktuell mapp i Finder eller Filutforskaren
+21.  Filen `start.html` finns INTE filsystemet
+22.  ```git checkout master``` Byt till `master branch`
 
 ---
 
@@ -72,25 +73,37 @@
 
 23. ```git branch``` Notera aktuell branch
 24. ```git checkout master``` Byt till master branch
-25. ```ls``` Notera att ```content.txt``` INTE finns i ```Master```
-26. ```git merge new_feature``` Slår samman ```new_feature```med aktuell branch (```master```)
-27. ```ls``` Notera att ```content.txt``` FINNS i ```Master```
+25. ```ls``` Notera att `start.html` INTE finns i `master`
+26. ```git merge new_feature``` Slår samman 
+27. ```ls``` Notera att `start.html` FINNS i `master`
 
 ---
 
 ## Uppstädning
 
-28. ```git branch -d new_feature``` Raderar develop branch
+28. ```git branch -d develop``` Raderar `develop` branch
 
 --- 
 
 ## Use cases
 
-29. Besvara: Skapa en branch-struktur som passar tre personer som på varsit håll kan utveckla utan att störa vandra. De tre delarna är faster-login, log-bugfix och social-feature i utvecklingsprojektet. Master ska alltid vara _deployable_ och samtliga utvecklare ska ha tillgång en samlad gren.
+---
 
-30. Besvara: Skapa en passande branch-struktur för en applikation som ständigt utvecklas och skapar major och minor versioner. Master ska alltid vara _deployable_
+## Use Case 1
 
-31. Besvara: Hur skulle en struktur kunna se ut för ett pågående utvecklingsarbete som passar fyra utvecklingsteam (planning, order, lager och fakturering) i en organisation. Planningteamet styr och sammanställer projektet från de tre övriga grupperna. Varje teamledare ansvarar för sitt team på fem person och varje person kan se sidledes och ett steg upp.
+Laboration: Skapa en branch-struktur som passar tre personer som på varsit håll kan utveckla utan att störa vandra. De tre delarna är faster-login, log-bugfix och social-feature i utvecklingsprojektet. Master ska alltid vara _deployable_ och samtliga utvecklare ska ha tillgång en samlad gren.
+
+---
+
+## Use Case 2
+
+Laboration: Skapa en passande branch-struktur för en applikation som ständigt utvecklas och skapar major och minor versioner. Master ska alltid vara _deployable_
+
+---
+
+## Use Case 3
+
+Laboration: Hur skulle en struktur kunna se ut för ett pågående utvecklingsarbete som passar fyra utvecklingsteam (planning, order, lager och fakturering) i en organisation. Planningteamet styr och sammanställer projektet från de tre övriga grupperna. Varje teamledare ansvarar för sitt team på fem person och varje person kan se sidledes och ett steg upp.
 
 ---
 
