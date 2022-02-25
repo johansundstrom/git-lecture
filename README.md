@@ -4,7 +4,7 @@
 
 ## Utskrift
 
-[print](http://127.0.0.1:5500/?print-pdf)
+[print](?print-pdf)
 
 ---
 
