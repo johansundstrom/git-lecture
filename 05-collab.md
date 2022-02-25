@@ -14,7 +14,8 @@
 
 ## Aktuell branch
 
-1. Vilken är aktuell branch? ```git branch``` returnerar antingen `master` eller `main`
+1. Vilken är aktuell branch? 
+2. ```git branch``` returnerar antingen `master` eller `main`
 
 ---
 
@@ -42,7 +43,7 @@
 
 7. ```git branch develop``` Skapa på nytt
 8. ```git branch``` Notera aktuell gren
-9. ```git checkout develop``` Byter till branch `develop`
+9. ```git checkout develop``` Byter till bransch `develop`
 10. ```git branch``` Aktuell gren är `develop`
 
 ---
@@ -71,8 +72,8 @@
 
 ## Merge
 
-23. ```git branch``` Notera aktuell branch
-24. ```git checkout master``` Byt till master branch
+23. ```git branch``` Notera aktuell bransch
+24. ```git checkout master``` Byt till master bransch
 25. ```ls``` Notera att `start.html` INTE finns i `master`
 26. ```git merge new_feature``` Slår samman 
 27. ```ls``` Notera att `start.html` FINNS i `master`
@@ -81,7 +82,7 @@
 
 ## Uppstädning
 
-28. ```git branch -d develop``` Raderar `develop` branch
+28. ```git branch -d develop``` Raderar `develop` bransch
 
 --- 
 
@@ -91,19 +92,19 @@
 
 ## Use Case 1
 
-Laboration: Skapa en branch-struktur som passar tre personer som på varsit håll kan utveckla utan att störa vandra. De tre delarna är faster-login, log-bugfix och social-feature i utvecklingsprojektet. Master ska alltid vara _deployable_ och samtliga utvecklare ska ha tillgång en samlad gren.
+Skapa en bransch-struktur som passar tre personer som på varsit håll kan utveckla utan att störa vandra. De tre delarna är faster-login, log-bugfix och social-feature i utvecklingsprojektet. Master ska alltid vara _deployable_ och samtliga utvecklare ska ha tillgång en samlad gren.
 
 ---
 
 ## Use Case 2
 
-Laboration: Skapa en passande branch-struktur för en applikation som ständigt utvecklas och skapar major och minor versioner. Master ska alltid vara _deployable_
+Skapa en passande bransch-struktur för en applikation som ständigt utvecklas och skapar major och minor versioner. Master ska alltid vara _deployable_
 
 ---
 
 ## Use Case 3
 
-Laboration: Hur skulle en struktur kunna se ut för ett pågående utvecklingsarbete som passar fyra utvecklingsteam (planning, order, lager och fakturering) i en organisation. Planningteamet styr och sammanställer projektet från de tre övriga grupperna. Varje teamledare ansvarar för sitt team på fem person och varje person kan se sidledes och ett steg upp.
+Hur skulle en struktur kunna se ut för ett pågående utvecklingsarbete som passar fyra utvecklingsteam (planning, order, lager och fakturering) i en organisation. Planningteamet styr och sammanställer projektet från de tre övriga grupperna. Varje teamledare ansvarar för sitt team på fem person och varje person kan se sidledes och ett steg upp.
 
 ---
 
