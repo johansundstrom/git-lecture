@@ -2,39 +2,64 @@
 
 ---
 
-Med samarbeten menas här att flera utvecklare samtidigt kan skapa nya grenar (branch)av ett befintligt offentligt repo. I dessa kan arbeten pågå och utvecklas utan att störa huvudgrenen. Efter att man uppnått en fullgod ny funktion i en ny gren så merge'as dessa in i och uppgraderar huvudgrenen. Konsumenter kan hela tiden ladda ned och använda versionen som ligger i huvudgrenen samtidigt som arbeten pågår i olika mer eller mindre offentliga grenar. 
+## Samarbeten 
+
+* Devisen: *main branch is always deliverable*
+* Utveckling testas och verifieras i `branches`
+* Vid acceptans sker `merge`
+
+![branch/merge](https://www.nobledesktop.com/image/gitresources/git-branches-merge.png)
 
 ---
 
-## Setup
+## Aktuell branch
 
-1. Bekräfta att nuvarande branch är ```Master``` med ```git branch```
+1. Vilken är aktuell branch? ```git branch``` returnerar antingen `master` eller `main`
 
 ---
 
-## Branch
+## Skapa ny branch
 
-2. Skapa ny branch med ```git branch develop```
+2. Skapa ny branch med namnet *develop* ```git branch develop```
 3. ```git branch``` Notera grenarna
-4. ```git branch --delete develop``` Raderar branch develop
-4. ```git branch develop``` Skapa på nytt
-7. ```git branch``` Notera aktuell gren
-6. ```git checkout develop``` Byter till branch develop
-7. ```git branch --move new_feature``` Flyttar eller döper om aktuell branch
-8. ```git branch``` Notera aktuell gren
 
 ---
 
-## Skapa innehåll i branch
-10. ```git branch``` Aktuell gren är New_Feature
-11. ```touch content.txt``` Skapa fil
-12. Stage och Committ'a nya filen
-13. ```git status``` Kontrollera att allt är klart
-14. ```ls``` Notera att filen skapades
-15. Notera att filer från branch Master och New_Feature existerar
-16. ```git checkout master``` Byt till Master
-17. ```ls``` Filen content.txt ska inte finnas i master 
-18. Bevaka Finder eller Filutforskaren vid bytet
+## Byt namn på branch
+
+4. ```git branch --move new_feature``` Flyttar eller döper om aktuell branch till `new_feature`
+5.  ```git branch``` Notera aktuell gren
+
+---
+
+## Radera branch
+
+6. ```git branch --delete new_feature``` Raderar branch new_feature
+
+---
+
+## Arbeta på ny branch
+
+5. ```git branch develop``` Skapa på nytt
+6. ```git branch``` Notera aktuell gren
+7. ```git checkout develop``` Byter till branch `develop`
+8. ```git branch``` Aktuell gren är `develop`
+
+---
+
+## 1. Utveckla i en branch
+
+9. ```touch start.html``` Skapa fil
+10. ```ls``` Notera att filen skapades
+11. Stage'a och Committ'a nya filen
+12. ```git status``` Kontrollera att allt är klart
+13. Notera att filen i branch `develop` existerar
+
+## 2. Utveckla i en branch
+
+14. ```git checkout master``` Byt till `master branch`
+17. ```ls``` Filen `start.html` ska inte finnas i `master branch`
+18. Bevaka mappen i Finder eller Filutforskaren vid bytet
 19. Notera att endast filer från Master existerar
 20. ```git checkout new_feature``` Byt till New_Feature
 21. Sänd ```ls```
