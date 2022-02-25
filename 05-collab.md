@@ -86,10 +86,6 @@
 
 --- 
 
-## Use cases
-
----
-
 ## Use Case 1
 
 Skapa en bransch-struktur som passar tre personer som på varsit håll kan utveckla utan att störa vandra. De tre delarna är faster-login, log-bugfix och social-feature i utvecklingsprojektet. Master ska alltid vara _deployable_ och samtliga utvecklare ska ha tillgång en samlad gren.
