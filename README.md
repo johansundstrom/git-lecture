@@ -15,3 +15,7 @@
 3. Bash
 4. Versionshantering
 5. Kollaborering
+
+---
+
+(C) Johan Sundström
