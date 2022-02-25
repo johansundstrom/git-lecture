@@ -90,7 +90,7 @@
 
 31. `git log` notera senaste hash
 32. `git checkout <senaste hash> index.html`
-33. Öppna filen ```index.html` Återställd till senaste version?
+33. Öppna filen `index.html` Återställd till senaste version?
 
 --- 
 
