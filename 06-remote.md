@@ -34,6 +34,8 @@
 14. ```git remote -v``` Lista verbose. Notera (fetch) och (push) adresser
 15. ```git remote rm origin``` Raderar befintliga anslutningar
 
+---
+
 ### Hämtar filer från centralt repo, skapar lokal mapp samt .git 
 #### Git clone - används för att etablera första gången
 16. Med terminalen, gå till lämplig plats i filsystemet ```cd <mapp>```
