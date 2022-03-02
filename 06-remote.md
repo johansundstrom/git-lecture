@@ -66,29 +66,34 @@
 
 ---
 
-## Hämtar förändringar från origin och uppdaterar arbetsfiler i HEAD
-### uppdatera lokal repo från central repo
-#### Git fetch - uppdaterar lokal repo med centrala uppdateringar
-27. ```git fetch http://github.com/johansundstrom/gitlab.git```
-28. ```git fetch origin``` är ett enklare alternativ till ovanstående, kräver etablerad origin
-Ta för vana att uppdatera lokal repo innan lokalt arbete inleds.
-```git fetch``` laddar bara ned filer från central repo, men det integrerar inte de lokala arbetsfilerna. Fetch är bra för att inhämta alla förändringar i centralt repo. Det är inte destruktivt.
+## Git fetch - Hämtar men uppdaterar inte arbetsfiler i HEAD
 
-Hämtar förändringar från origin och uppdaterar arbetsfiler i HEAD
-### uppdaterar lokal repo från central repo
-#### Git pull - uppdaterar lokal repo med centrala uppdateringar
+27. `git fetch http://github.com/johansundstrom/gitlab.git`
+28. `git fetch origin` är ett enklare alternativ till ovanstående, kräver etablerad origin
+
+Tips: uppdatera lokal repo innan lokalt arbete inleds. `git fetch` nedladdar filer från central repo, det integrerar inte de lokala arbetsfilerna. Fetch är inte destruktivt.
+
+---
+
+## Git push - Hämtar och uppdaterar arbetsfiler i HEAD
+
 Git clone gör följande två kommandon
+
 * Git fetch
 * Git merge origin master
-29. ```git pull origin master```
-Eftersom ```git pull``` försöker att göra merge centrala förändringar med de lokala så är ```merge confict``` vanligt. Rekommendationen är därför att bara använda ```git pull``` på ren arbetskopia (lokal repo).
+  
+29.  `git pull origin master`
 
-Ta för vana att alltid uppdatera lokal repo innan lokalt arbete på remote repo inleds
+* Eftersom `git pull` försöker att göra merge på centrala förändringar med de lokala så är `merge confict` vanligt. 
+* Rekommendationen är därför att bara använda `git pull` på ren arbetskopia (lokal repo).
+* Ta för vana att alltid uppdatera lokal repo innan lokalt arbete på remote repo inleds
+
+---
 
 Hämtar förändringar från origin och uppdaterar arbetsfiler i HEAD
 
-30. ```git fetch <url>``` Hämta förändringar från origin
-31. ```git remote``` Lista anslutningar (```origin``` är standard kortnamn på anslutning)
-32. ```git remote -v``` Lista anslutningar verbose
+1.  ```git fetch <url>``` Hämta förändringar från origin
+2.  ```git remote``` Lista anslutningar (```origin``` är standard kortnamn på anslutning)
+3.  ```git remote -v``` Lista anslutningar verbose
 
 (C) Johan Sundström
