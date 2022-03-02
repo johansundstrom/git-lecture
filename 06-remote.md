@@ -27,36 +27,46 @@
 7. `git remote add origin http://github.com/johansundstrom/gitlab.git` 
 8. Notera att det går att ansluta till remote repo och hämta data utan giltigt användarnamn och lösenord
 9. Gör en förändring i en fil lokalt, Stage'a och Commit'a i Master
-10. ```git push origin master``` Notera att GitHub frågar efter giltigt användarnamn och lösenord
+10. `git push origin master` Notera att GitHub frågar efter giltigt användarnamn och lösenord
 11. Om du fått giltigt användarnamn och lösenord, ställ in dessa enligt p.1-2
-12. ```git push origin master``` Notera att push 
-13. ```git remote``` Notera att ```origin``` listas
-14. ```git remote -v``` Lista verbose. Notera (fetch) och (push) adresser
-15. ```git remote rm origin``` Raderar befintliga anslutningar
+12. `git push origin master` Notera att push 
+13. `git remote` Notera att ```origin``` listas
+14. `git remote -v` Lista verbose. Notera (fetch) och (push) adresser
+15. `git remote rm origin` Raderar befintliga anslutningar
 
 ---
 
-### Hämtar filer från centralt repo, skapar lokal mapp samt .git 
-#### Git clone - används för att etablera första gången
-16. Med terminalen, gå till lämplig plats i filsystemet ```cd <mapp>```
-17. "Git clone" gör följande tre kommandon
+## Hämta filer från centralt repo, skapar lokal mapp samt .git 
+
+16. Med terminalen, gå till lämplig plats i filsystemet `cd <mapp>`
+17. _Git clone_ gör följande tre kommandon
+
 * Git init
 * Git remote add origin <url>
 * Git pull origin master
-18. Markera en lämplig plats i filsystemet dit det externa innehållet skall skapas
-19. ```git clone http://github.com/johansundstrom/gitlab.git``` Skapa lokal mapp och klonar allt
-20. Notera att mapp skapats med ```ls```
-21. Gå in i mappen ```cd gitlab```
-22. ```ls``` Notera att det bör finnas ett innehåll
-23. ```ls -a``` Notera att ```.git``` mappen finns och är dold
+  
+---
+
+## Git Clone
+
+18.  Markera en lämplig plats i filsystemet dit det externa innehållet skall skapas
+19.  `git clone http://github.com/johansundstrom/gitlab.git` Skapa lokal mapp och klonar allt
+20.  Notera att mapp skapats med `ls`
+21.  Gå in i mappen `cd gitlab`
+22.  `ls` Notera att det bör finnas ett innehåll
+23.  `ls -a` Notera att `.git` mappen finns och är dold
  
-### Publicera lokala förändringar på ett anslutningsnamn
-#### Git push - används för att uppdatera centralt repo
+---
+
+## Publicera lokala förändringar på ett anslutningsnamn
+
 24. Öppna och redigera fil i mappen gitlab - spara
 25. stage'a och commit'a förändringarna
-26. ```git push http://github.com/johansundstrom/gitlab.git``` alternativt ```git push origin master```
+26. `git push http://github.com/johansundstrom/gitlab.git` alternativt `git push origin master`
 
-Hämtar förändringar från origin och uppdaterar arbetsfiler i HEAD
+---
+
+## Hämtar förändringar från origin och uppdaterar arbetsfiler i HEAD
 ### uppdatera lokal repo från central repo
 #### Git fetch - uppdaterar lokal repo med centrala uppdateringar
 27. ```git fetch http://github.com/johansundstrom/gitlab.git```
