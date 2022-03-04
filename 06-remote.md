@@ -92,8 +92,10 @@ Git clone gör följande två kommandon
 
 Hämtar förändringar från origin och uppdaterar arbetsfiler i HEAD
 
-1.  ```git fetch <url>``` Hämta förändringar från origin
-2.  ```git remote``` Lista anslutningar (```origin``` är standard kortnamn på anslutning)
-3.  ```git remote -v``` Lista anslutningar verbose
+30.  ```git fetch <url>``` Hämta förändringar från origin
+31.  ```git remote``` Lista anslutningar (```origin``` är standard kortnamn på anslutning)
+32.  ```git remote -v``` Lista anslutningar verbose
+
+---
 
 (C) Johan Sundström
