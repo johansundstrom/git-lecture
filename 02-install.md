@@ -2,6 +2,12 @@
 
 ---
 
+## Mål
+
+* Instruktioner för att installera och konfigurera Git
+
+---
+
 <img src="https://git-scm.com/images/logos/downloads/Git-Logo-2Color.png" width="10%" height="10%" />
 
 1. [https://git-scm.com](https://git-scm.com)

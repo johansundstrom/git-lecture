@@ -2,6 +2,13 @@
 
 ---
 
+## Mål
+
+* Få övergripande förståelse för Git
+* Kunna skilja på Git och Github
+
+---
+
 ## Vanans makt
 
 * Ute - spara filversioner

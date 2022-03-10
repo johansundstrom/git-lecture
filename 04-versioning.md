@@ -40,7 +40,7 @@
 
 ## Unstage fil
 
-4. `git reset index.html` alternativt `git rm --cached index.html`
+4. `git reset index.html` <br>alternativt `git rm --cached index.html`
 5. `git status`
 6. Besvara: Vad har filen `index.html` för status (untracked | staged | committed ) och färg?
 7. `git add index.html` igen
@@ -67,7 +67,7 @@
 18. `git log`
 19. Besvara: Hur många commits?
 20. Identifiera: Author, date, commit message
-21. Notera: (HEAD -> master) head, detta återkommer vi till
+21. Notera: `HEAD -> master` se mer om head i p.27
 22. `git log --pretty=oneline` visar hash, commit message och HEAD
 23. Notera commit hash typ  `42e95e5b41a4d2351ec2850812b34cf7c2112f11`
 
