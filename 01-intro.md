@@ -51,8 +51,8 @@
 
 <img src="https://github.githubassets.com/images/modules/logos_page/Octocat.png" width="10%" height="10%" />
 
-* Hosting platform för versionskontroll, samarbete och distribution
-* 56 miljoner utvecklare (Sept 2020)
+* Hosting platform för versionskontroll, samarbete men främst distribution
+* 56 miljoner användare (Sept 2020 - Wiki)
 * Git är ett kommandoradsverktyg
 * Github är hubben (navet) för Git på webben
 * Github är lagringsplatsen
