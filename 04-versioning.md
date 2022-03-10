@@ -6,17 +6,21 @@
 
 * Repository/repo (förråd)
 * Snapshots
+* Procedur
 
 ---
 
 ## Versionskontroll
 
-* Versionshantering menas att en mapp eller fil's innehåll kan finnas i olika versioner.
-* Möjlighet att backa till tidigare version finns.
+* En mapp eller fil's innehåll kan finnas i olika versioner
+* Möjlighet att backa till tidigare versioner
 
 ---
 
 ## Tänk Snapshots
+
+* Ett snapshot är ett nytt tillstånd
+* Ett Repository har flera snapshots av versioner
 
 ---
 
