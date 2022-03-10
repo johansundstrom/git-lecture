@@ -40,7 +40,7 @@
 
 ## Unstage fil
 
-4. `git reset index.html` Fungerar det inte så använd `git rm --cached index.html`
+4. `git reset index.html` alternativt `git rm --cached index.html`
 5. `git status`
 6. Besvara: Vad har filen `index.html` för status (untracked | staged | committed ) och färg?
 7. `git add index.html` igen
