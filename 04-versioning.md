@@ -69,7 +69,7 @@
 
 ---
 
-### Visa innehållsförändringar
+## Visa innehållsförändringar
 
 24. `git log --stat` visar förändringar förkortat (pil upp/ned, Q för avslut)
 25. `git log --patch -2` Visar förändringar i innehållet (pil upp/ned, Q för avslut)
