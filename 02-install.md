@@ -2,7 +2,7 @@
 
 ---
 
-![Download Git](/assets/images/git-download.gif "Download Git")
+<img src="https://git-scm.com/images/logos/downloads/Git-Logo-2Color.png" width="10%" height="10%" />
 
 1. [https://git-scm.com](https://git-scm.com)
 2. Installera `Git` för ditt operativsystem
