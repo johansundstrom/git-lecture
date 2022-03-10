@@ -86,7 +86,7 @@
 27. När Git säger `Prevoious HEAD position was <hash>... HEAD is now at <hash>...` har pekare till aktuell state (HEAD) förändrats
 28. Öppna filen `index.html` Tidigare version?
 29. `git status`
-30. Besvara: Vad rapporterar git?
+30. Besvara: Vad rapporterar Git?
 
 ---
 
