@@ -10,11 +10,12 @@
 
 ## Agenda
 
-1. Introduktion
-2. Installera
-3. Bash
+1. Koncept
+2. Installera Git
+3. Filhantering Bash
 4. Versionshantering
-5. Kollaborering
+5. Samarbeten - branch/merge
+6. Remote repositories
 
 ---
 
