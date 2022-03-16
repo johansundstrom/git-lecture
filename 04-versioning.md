@@ -5,7 +5,7 @@
 ## Mål
 
 * States och hantering
-* en fils tre tillstånd
+* En fils tre tillstånd
 * Förflyttning i historiska states
 
 ---
