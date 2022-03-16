@@ -2,6 +2,14 @@
 
 ---
 
+## Mål
+
+* Teknik för samarbeten
+* Leveransklar branch
+* Branch/merge
+
+---
+
 ## Samarbeten 
 
 * States 

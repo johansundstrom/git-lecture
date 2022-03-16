@@ -2,6 +2,13 @@
 
 ---
 
+## Mål
+
+* Hämta/lämna från/till central repo
+* Kopplingsnamnet - origin
+
+---
+
 ## Centralt repo kan vara...
 
 * GitHub (HTTP)

@@ -2,6 +2,14 @@
 
 ---
 
+## Mål
+
+* States och hantering
+* en fils tre tillstånd
+* Förflyttning i historiska states
+
+---
+
 ## Agenda
 
 * Repository/repo (förråd)
