@@ -8,7 +8,10 @@
 
 ---
 
+## 1. Installera
+
 <img src="https://git-scm.com/images/logos/downloads/Git-Logo-2Color.png" width="10%" height="10%" />
+
 
 1. [https://git-scm.com](https://git-scm.com)
 2. Installera `Git` för ditt operativsystem
@@ -26,8 +29,8 @@
 ## 3. Konfigurera Git
 
 1. Öppna bash terminal 
-2. `mkdir <mapp>` och `cd <mapp>` Skapar mapp i lokala filsystemet 
-3. `git init` - Skapar lokal repository i dolda undermappen `.git`
+2. `mkdir <mapp>` och `cd <mapp>` - Skapar och flyttar till nya mappen i lokala filsystemet 
+3. `git init` - Skapar lokal repository med systemfiler i dolda undermappen `.git`
 4. `git config --global user.name "johansundstrom"` - Tillägget `--global` ger åtkomst i alla projektmappar
 5. `git config --global user.email "johan.sundstrom@mdh.se"`
 
@@ -39,7 +42,7 @@
 6. `git config user.email` - Visar epostadress
 7. `git config --list` - Listar inställningar
 8. `git config --global user.name "ninja-johan"` - Ändrar username
-9. `git config --global color.ui auto` - Färg UI 
+9. `git config --global color.ui auto` - Färg UI
 
 ---
 

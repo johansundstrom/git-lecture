@@ -22,6 +22,7 @@
 * Filhistorik blir svårhanterlig, vilken är aktuell?
 * Samarbete med filer omöjligt
 * Distribution av filer krävande
+* Distribuerad lagring helt omöjlig
 
 ---
 
@@ -60,9 +61,10 @@
 
 * Hosting platform för versionskontroll, samarbete men främst distribution
 * 56 miljoner användare (Sept 2020 - Wiki)
-* Git är ett kommandoradsverktyg
+* Git är främst ett kommandoradsverktyg
 * Github är hubben (navet) för Git på webben
 * Github är lagringsplatsen
+* Github stödjer bl.a att användare anmäler _issues_ (förbättringar)
 
 ---
 
