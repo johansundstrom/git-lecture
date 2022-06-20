@@ -1,4 +1,4 @@
-# 3. Filhantering i Bash
+# 3. Filhantering med Bash
 
 ---
 
@@ -29,27 +29,33 @@
 
 ## Rättigheter
 
-6. Sänd `ls -l` listar rättigheter
+6. Sänd `ls -l` - Listar rättigheter
 Bokstäverna rwx står för Read/Write/Execute rättighet. Dessa visas tre gånger, först för `Owner`, därefter `Group` och sist `Others` (world). RWX benämns ibland 7 (1+2+4). Första biten kan vara `-` fil eller `d` directory (mapp)
-7. Sänd `ls -full` lista allt
-8. Sänd `ls -a` listar även dolda mappar som börjar med dot
+7. Sänd `ls -full` - Lista allt
+8. Sänd `ls -a` - Listar även dolda mappar som börjar med dot
 9. Sänd `ls -a -full` listar utökat och dolda mappar
+10. Besvara: När skapades filen?
+11. Vad har filen för filrättigheter?
 
 ---
 
 ## Chmod (Change mode)
 
-10. Besvara: När skapades filen?
-11. Vad har filen för filrättigheter?
-12. Läs mer om [chmod](https://ss64.com/bash/chmod.htm)
+* Chmod ändrar filrättigheter
+* Syntax: 
+ 
+```chmod u=rw, g=r, o=r index.html``` 
+
+
+1.   Läs mer om [chmod](https://ss64.com/bash/chmod.htm)
 
 ---
 
 ## Kontrollera Git
 
-13. `git status` visar status och om mappen är ett repo
-14. Sänd `ls -a`
-15. Besvara: Vad har filen `index.html` för status (untracked | staged | committed ) och färg?
+1.  `git status` visar status och om mappen är ett repo
+2.  Sänd `ls -a`
+3.  Besvara: Vad har filen `index.html` för status (untracked | staged | committed ) och färg?
 
 ---
 
