@@ -47,15 +47,15 @@ Bokstäverna rwx står för Read/Write/Execute rättighet. Dessa visas tre gång
 ```chmod u=rw, g=r, o=r index.html``` 
 
 
-1.   Läs mer om [chmod](https://ss64.com/bash/chmod.htm)
+12.   Läs mer om [chmod](https://ss64.com/bash/chmod.htm)
 
 ---
 
 ## Kontrollera Git
 
-1.  `git status` visar status och om mappen är ett repo
-2.  Sänd `ls -a`
-3.  Besvara: Vad har filen `index.html` för status (untracked | staged | committed ) och färg?
+13.  `git status` visar status och om mappen är ett repo
+14.  Sänd `ls -a`
+15.  Besvara: Vad har filen `index.html` för status (untracked | staged | committed ) och färg?
 
 ---
 
