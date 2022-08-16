@@ -51,22 +51,21 @@
 4. `git reset index.html` <br>alternativt `git rm --cached index.html`
 5. `git status`
 6. Besvara: Vad har filen `index.html` för status (untracked | staged | committed ) och färg?
-7. `git add index.html` igen
+7. `git add index.html` genomför stageing
 8. Tryck "pil upp" för historiska kommandon och sänd `git status`
 
 ---
 
 ## Commit fil
 
-9. `git add index.html` genomför stageing
-10. `git commit --message "Lagt till HTML"`
+9. `git commit --message "Skapat index.html"`
+10. `git status`
 11. Besvara: Vad rapporterar git?
-12. `git status`
-13. Editera filen `index.html` med `<head></head>`
-14. `git add index.html`
-15. `git status`
-16. `git commit --message "Lagt till HEAD"`
-17. `git status`
+12. Editera filen `index.html` med `<head></head>`
+13. `git add index.html`
+14. `git status`
+15. `git commit --message "Lagt till HEAD"`
+16. `git status`
 
 ---
 
