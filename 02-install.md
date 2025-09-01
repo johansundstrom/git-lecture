@@ -32,7 +32,7 @@
 2. `mkdir <mapp>` och `cd <mapp>` - Skapar och flyttar till nya mappen i lokala filsystemet 
 3. `git init` - Skapar lokal repository med systemfiler i dolda undermappen `.git`
 4. `git config --global user.name "johansundstrom"` - Tillägget `--global` ger åtkomst i alla projektmappar
-5. `git config --global user.email "johan.sundstrom@mdh.se"`
+5. `git config --global user.email "johan.sundstrom@mdu.se"`
 
 ---
 
@@ -52,5 +52,6 @@
 2. `git help <verb>`
 
 --- 
+
 
 (C) Johan Sundström
