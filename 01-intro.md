@@ -60,7 +60,7 @@
 <img src="https://e7.pngegg.com/pngimages/72/604/png-clipart-github-pages-version-control-source-code-github-mammal-cat-like-mammal-thumbnail.png" width="10%" height="10%" />
 
 * Hosting platform för versionskontroll, samarbete men främst distribution
-* 56 miljoner användare (Sept 2020 - Wiki)
+* Över 100 miljoner utvecklare och mer än 420 miljon repositories (jan 2023 - Wiki)
 * Git är främst ett kommandoradsverktyg
 * Github är hubben (navet) för Git på webben
 * Github är lagringsplatsen
@@ -77,3 +77,4 @@
 
 
 (C) Johan Sundström
+
