@@ -34,7 +34,7 @@
 
 ## Tillståndshantering
 
-<img src="https://camo.githubusercontent.com/68c10cf9817f61108313cf3eb561e96913e0f16783a31e344f1414e11dbe41a1/68747470733a2f2f6769742d73636d2e636f6d2f696d616765732f61626f75742f696e646578314032782e706e67">
+<img src="https://git-scm.com/book/en/v2/images/deltas.png">
 
 ---
 
@@ -104,5 +104,6 @@
 33. Öppna filen `index.html` Återställd till senaste version?
 
 --- 
+
 
 (C) Johan Sundström
