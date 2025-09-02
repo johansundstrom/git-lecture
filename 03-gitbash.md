@@ -23,7 +23,7 @@
 2. Med `cd <mapp>` och `mkdir <ny mapp>` gå till lämplig plats i filsystemet (Mina dokument/proj)
 3. Sänd `ls` (list) konstatera att det är tomt
 4. Sänd `touch index.html` Skapa index.html
-5. Sänd `ls`. Skapad?
+5. Sänd `ls` Skapad?
 
 ---
 
@@ -65,5 +65,6 @@ Bokstäverna rwx står för Read/Write/Execute rättighet. Dessa visas tre gång
 17. Spara
 
 --- 
+
 
 (C) Johan Sundström
