@@ -38,11 +38,11 @@
 
 ## 4. Konfigurera Git
 
-5. `git config user.name` - Visar användarnamn
-6. `git config user.email` - Visar epostadress
-7. `git config --list` - Listar inställningar
-8. `git config --global user.name "ninja-johan"` - Ändrar username
-9. `git config --global color.ui auto` - Färg UI
+6. `git config user.name` - Visar användarnamn
+7. `git config user.email` - Visar epostadress
+8. `git config --list` - Listar inställningar
+9. `git config --global user.name "ninja-johan"` - Ändrar username
+10. `git config --global color.ui auto` - Färg UI
 
 ---
 
