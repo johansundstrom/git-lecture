@@ -27,12 +27,12 @@
 
 ---
 
-## Rättigheter
+## Filrättigheter
 
 6. Sänd `ls -l` - Listar rättigheter
 Bokstäverna rwx står för Read/Write/Execute rättighet. Dessa visas tre gånger, först för `Owner`, därefter `Group` och sist `Others` (world). RWX benämns ibland 7 (1+2+4). Första biten kan vara `-` fil eller `d` directory (mapp)
-7. Sänd `ls -full` - Lista allt
-8. Sänd `ls -a` - Listar även dolda mappar som börjar med dot
+7. Sänd `ls -full index.html` - Lista allt. Notera standardröttigheter (o=rw,g=r,o=r)
+8. Sänd `ls -a` - Listar även dolda mappar som börjar med dot (```.```)
 9. Sänd `ls -a -full` listar utökat och dolda mappar
 10. Besvara: När skapades filen?
 11. Vad har filen för filrättigheter?
@@ -70,3 +70,4 @@ Bokstäverna rwx står för Read/Write/Execute rättighet. Dessa visas tre gång
 
 
 (C) Johan Sundström
+
