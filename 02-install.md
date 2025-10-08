@@ -21,37 +21,38 @@
 
 ## 2. Skapa konto på Github
 
-1. [https://github.com](https://github.com)
-2. Kontot behövs för git
+4. [https://github.com](https://github.com)
+5. Kontot behövs för git
 
 ---
 
 ## 3. Konfigurera Git
 
-1. Öppna bash terminal 
-2. `mkdir <mapp>` och `cd <mapp>` - Skapar och flyttar till nya mappen i lokala filsystemet 
-3. `git init` - Skapar lokal repository med systemfiler i dolda undermappen `.git`
-4. `git config --global user.name "johansundstrom"` - Tillägget `--global` ger åtkomst i alla projektmappar
-5. `git config --global user.email "johan.sundstrom@mdu.se"`
+6. Öppna bash terminal 
+7. `mkdir <mapp>` och `cd <mapp>` - Skapar och flyttar till nya mappen i lokala filsystemet 
+8. `git init` - Skapar lokal repository med systemfiler i dolda undermappen `.git`
+9. `git config --global user.name "johansundstrom"` - Tillägget `--global` ger åtkomst i alla projektmappar
+10. `git config --global user.email "johan.sundstrom@mdu.se"`
 
 ---
 
 ## 4. Konfigurera Git
 
-6. `git config user.name` - Visar användarnamn
-7. `git config user.email` - Visar epostadress
-8. `git config --list` - Listar inställningar
-9. `git config --global user.name "ninja-johan"` - Ändrar username
-10. `git config --global color.ui auto` - Färg UI
+11. `git config user.name` - Visar användarnamn
+12. `git config user.email` - Visar epostadress
+13. `git config --list` - Listar inställningar
+14. `git config --global user.name "ninja-johan"` - Ändrar username
+15. `git config --global color.ui auto` - Färg UI
 
 ---
 
 ## 5. Hjälp
 
-1. `git <verb> --help`
-2. `git help <verb>`
+16. `git <verb> --help`
+17. `git help <verb>`
 
 --- 
 
 
 (C) Johan Sundström
+
