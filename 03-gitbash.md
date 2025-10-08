@@ -46,26 +46,27 @@ Bokstäverna rwx står för Read/Write/Execute rättighet. Dessa visas tre gång
  
 ```chmod u=rw,g=r,o=r index.html``` 
 
+12. Efter ändrade rättigheter, sänd ```ls -full index.html```
 
-12.   Läs mer om [chmod](https://ss64.com/bash/chmod.htm)
+
+13.   Läs mer om [chmod](https://ss64.com/bash/chmod.htm)
 
 ---
 
 ## Kontrollera Git
 
-13.  `git status` visar status och om mappen är ett repo
-14.  Sänd `ls -a`
-15.  Besvara: Vad har filen `index.html` för status (untracked | staged | committed ) och färg?
+14.  `git status` visar status och om mappen är ett repo
+15.  Sänd `ls -a`
+16.  Besvara: Vad har filen `index.html` för status (untracked | staged | committed ) och färg?
 
 ---
 
 ## Redigera fil
 
-16. Redigera filen `index.html` med t.ex. `<html>...</html>` och spara (Mac: `nano index.html` | Windows: `notepad index.html` | Linux: `nano index.html`)
-17. Spara
+17. Redigera filen `index.html` med t.ex. `<html>...</html>` och spara (Mac: `nano index.html` | Windows: `notepad index.html` | Linux: `nano index.html`)
+18. Spara
 
 --- 
 
 
 (C) Johan Sundström
-
