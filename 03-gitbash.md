@@ -44,7 +44,7 @@ Bokstäverna rwx står för Read/Write/Execute rättighet. Dessa visas tre gång
 * Chmod ändrar filrättigheter
 * Syntax: 
  
-```chmod u=rw, g=r, o=r index.html``` 
+```chmod u=rw,g=r,o=r index.html``` 
 
 
 12.   Läs mer om [chmod](https://ss64.com/bash/chmod.htm)
@@ -68,3 +68,4 @@ Bokstäverna rwx står för Read/Write/Execute rättighet. Dessa visas tre gång
 
 
 (C) Johan Sundström
+
