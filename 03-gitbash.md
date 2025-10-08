@@ -31,7 +31,7 @@
 
 6. Sänd `ls -l` - Listar rättigheter
 Bokstäverna rwx står för Read/Write/Execute rättighet. Dessa visas tre gånger, först för `Owner`, därefter `Group` och sist `Others` (world). RWX benämns ibland 7 (1+2+4). Första biten kan vara `-` fil eller `d` directory (mapp)
-7. Sänd `ls -full index.html` - Lista allt. Notera standardröttigheter (o=rw,g=r,o=r)
+7. Sänd `ls -full index.html` - Lista allt. Notera standardrättigheter (o=rw,g=r,o=r)
 8. Sänd `ls -a` - Listar även dolda mappar som börjar med dot (```.```)
 9. Sänd `ls -a -full` listar utökat och dolda mappar
 10. Besvara: När skapades filen?
@@ -46,7 +46,7 @@ Bokstäverna rwx står för Read/Write/Execute rättighet. Dessa visas tre gång
  
 ```chmod u=rw,g=r,o=r index.html``` 
 
-12. Efter ändrade rättigheter, sänd ```ls -full index.html```
+12. Efter ändrade rättigheter, sänd ```ls -full index.html```. Har rättigheterna ändrats från orginal? Se p.7
 
 
 13.   Läs mer om [chmod](https://ss64.com/bash/chmod.htm)
@@ -70,4 +70,5 @@ Bokstäverna rwx står för Read/Write/Execute rättighet. Dessa visas tre gång
 
 
 (C) Johan Sundström
+
 
