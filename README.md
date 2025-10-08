@@ -1,3 +1,8 @@
+<!--
+1. Clone
+2. VS Code
+3. Starta Live server
+-->
 # Git/Github Introduktion
 
 ---
