@@ -1,7 +1,7 @@
 <!--
 1. Clone
-2. VS Code
-3. Starta Live server
+2. Öppna VS Code
+3. Öppna index.html i Live server
 -->
 # Git/Github Introduktion
 
