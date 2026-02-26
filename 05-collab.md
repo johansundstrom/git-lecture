@@ -44,7 +44,7 @@
 
 ## Radera branch
 
-6. `git branch --delete new_feature` Raderar branch new_feature
+6. `git branch --delete new_feature` Raderar branch ```new_feature```
 
 ---
 
@@ -112,5 +112,6 @@ Skapa en passande bransch-struktur för en applikation som ständigt utvecklas o
 Hur skulle en struktur kunna se ut för ett pågående utvecklingsarbete som passar fyra utvecklingsteam (planning, order, lager och fakturering) i en organisation. Planningteamet styr och sammanställer projektet från de tre övriga grupperna. Varje teamledare ansvarar för sitt team på fem person och varje person kan se sidledes och ett steg upp.
 
 ---
+
 
 (C) Johan Sundström
