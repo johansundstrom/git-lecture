@@ -38,7 +38,7 @@
 <img src="https://git-scm.com/images/logos/downloads/Git-Logo-2Color.png" width="10%" height="10%" />
 
 * Utvecklingen av Linux och dess distrubution krävde versionshanteringsprogram
-* _Git_ är ett versionshanteringsprogram VCS (Version Control System), _Subversion_ (SVN) är andra
+* _Git_ är ett versionshanteringsprogram. VCS (Version Control System), _Subversion_ (SVN) är andra
 * _Git_ är inte filversioner
 * Versionshantering innebär stöd för _traceability_, möjligheten att backa till tidigare versioner
 
